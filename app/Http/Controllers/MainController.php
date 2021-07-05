@@ -13,4 +13,7 @@ class MainController extends Controller
     function dashboard(){
         return view('index');
     }
+    function sampleView(){
+        return view('index');
+    }
 }
